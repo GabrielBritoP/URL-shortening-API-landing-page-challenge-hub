@@ -1,0 +1,12 @@
+#initial-section{
+  position: relative;
+  z-index: 2;
+  height:30rem;
+  background-color:white;
+}
+#mid-section{
+  position: fixed;
+  height:90rem;
+  background-color:hsl(0, 0%, 75%);
+  z-index: 1;
+}
