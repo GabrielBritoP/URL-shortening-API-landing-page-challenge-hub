@@ -1,27 +1,31 @@
 .input-div {
-  width: 60rem;
+  position: relative;
+  width: 70rem;
+  bottom: -3.5rem;
+  z-index: 3;
   display: flex;
   align-items: center;
-  background: url("../../images/bg-shorten-desktop.svg")  hsl(257, 27%, 26%);
-  background-position: right top;
+  background: url("../../images/bg-shorten-desktop.svg") hsl(257, 27%, 26%);
+  background-position: top;
   background-repeat: no-repeat;
-  height: 120px;
+  height: 140px;
   border-radius: 7px;
+  
   input {
     font-size: 18px;
-    width: 700px;
+    width: 45rem;
     height: 50px;
     padding-left: 20px;
     border: none;
     border-radius: 7px;
-    margin-left:30px;
+    margin-left: 70px;
   }
   button {
-    margin-left:20px;
+    margin-left: 20px;
     border: none;
-    font-size:18px;
+    font-size: 18px;
     width: 160px;
-    height:50px;
+    height: 50px;
     border-radius: 8px;
     color: white;
     background: hsl(180, 66%, 49%);
