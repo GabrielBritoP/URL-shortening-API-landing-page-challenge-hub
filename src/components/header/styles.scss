@@ -5,7 +5,7 @@ header {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 100px;
-  padding: 0 210px;
+  padding: 0 13.125rem;
 }
 .headerTags {
   display: flex;
@@ -34,7 +34,7 @@ header {
     border: none;
     color: hsl(0, 0%, 75%);
     font-weight: 600;
-
+    background-color:white;
     &:hover {
       cursor: pointer;
       color: hsl(260, 8%, 14%);
