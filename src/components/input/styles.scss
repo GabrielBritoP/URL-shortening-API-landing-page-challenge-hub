@@ -8,7 +8,7 @@
   background: url("../../images/bg-shorten-desktop.svg") hsl(257, 27%, 26%);
   background-position: top;
   background-repeat: no-repeat;
-  height: 140px;
+  height: 8.75rem;
   border-radius: 7px;
   
   input {
@@ -19,6 +19,11 @@
     border: none;
     border-radius: 7px;
     margin-left: 70px;
+    &:focus{
+    outline: none ;
+    border:2px solid hsl(0, 87%, 67%);
+
+    }
   }
   button {
     margin-left: 20px;

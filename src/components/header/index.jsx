@@ -5,9 +5,17 @@ export const Header = () => {
     <header>
       <div className="headerTags">
         <img href="/" src={logo} className="logoTitle" alt="logo"></img>
-        <a href="/">Features</a>
-        <a href="/">Prices</a>
-        <a href="/"> Resources</a>
+        <ul>
+          <li>
+            <a href="/">Features</a>
+          </li>
+          <li>
+            <a href="/">Prices</a>
+          </li>
+          <li>
+            <a href="/"> Resources</a>
+          </li>
+        </ul>
       </div>
       <div className="authButtons">
         <button className="loginButton">Login</button>
