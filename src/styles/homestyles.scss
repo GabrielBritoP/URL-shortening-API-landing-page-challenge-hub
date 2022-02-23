@@ -97,22 +97,48 @@
       }
     }
   }
-  .statistics-div{
+  .statistics-div {
     margin-left: auto;
     margin-right: auto;
     width: 30rem;
     text-align: center;
     line-break: loose;
-    h2{
+    margin-bottom: 5rem;
+    h2 {
       font-size: 2.5rem;
       color: hsl(260, 8%, 14%);
       margin-bottom: 1rem;
     }
-    p{
-     
+    p {
       font-size: 18px;
       color: hsl(0, 0%, 75%);
     }
-    
+  }
+  .cards-div {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width:80rem;
+    justify-content: space-around;
+    .card {
+      h3{
+        color:hsl(260, 8%, 14%);
+      }
+      img{
+        width:40px;
+        height:40px;
+      }
+      font-size: 16px;
+      height: 15rem;
+      width: 20rem;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+      text-align: left;
+      padding-left: 1rem;
+      color:hsl(0, 0%, 75%);
+    }
   }
 }
