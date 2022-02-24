@@ -54,23 +54,47 @@ export const HomePage = () => {
         </div>
         <div className="cards-div">
           <div className="card">
-            <img href={brandRecognition}/>
+            <div className="icon-div">
+              <img src={brandRecognition} alt="icon" />
+            </div>
             <h3>Brand Recognition</h3>
             <p>
               Boost your brand recognition with each click.Generic Links don't
               mean a thing. Branded links help instil confidence in your content
             </p>
           </div>
+          <hr></hr>
           <div className="card">
-            <img href={detailedRecords}/>
+            <div className="icon-div">
+              <img src={detailedRecords} alt="icon" />
+            </div>
             <h3>Detailed Records</h3>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
           </div>
-          <div className="card">
-            <img href={fullyCustomizable}/>
+          <hr></hr>
+          <div className="card ">
+            <div className="icon-div">
+              <img src={fullyCustomizable} alt="icon" />
+            </div>
             <h3>Fully Customizable</h3>
+            <p>
+              Improve brand awareness and content discoverabillity through
+              customizable links, supercharging audience engagement
+            </p>
           </div>
         </div>
+        <div className="boost-links">
+          <h2> Boost your links today</h2>
+          <button> Get Started</button>
+        </div>
       </section>
+      <footer>
+  
+      </footer>
     </div>
   );
 };
